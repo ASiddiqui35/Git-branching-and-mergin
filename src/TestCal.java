@@ -5,5 +5,6 @@ public class TestCal {
         Calculator str = new Calculator();
         str.setName("Bob");
         Assert.assertEquals("hobby0",str.getName());
+        str.add(10,10);
     }
 }
